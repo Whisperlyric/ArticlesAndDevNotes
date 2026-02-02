@@ -170,7 +170,7 @@ t=60: 强制更新时刻
 
 ### 掉落物（ItemEntity）的不同处理：
 
-查看 `ItemEntity.java` 中的构造与同步机制：
+查看 `net.minecraft.world.entity.item.ItemEntity.java` 中的构造与同步机制：
 
 ```java
 public ItemEntity(final Level level, final double x, final double y, final double z, 
@@ -196,7 +196,7 @@ if (!this.level().isClientSide()) {
 
 ### TNT 的简化实现：
 
-查看 `PrimedTnt.java` 中的移动处理：
+查看 `net.minecraft.world.entity.item.PrimedTnt.java` 中的移动处理：
 
 ```java
 public PrimedTnt(final Level level, final double x, final double y, final double z, 
@@ -272,4 +272,5 @@ TNT 实体缺少**主动同步触发机制**，导致：
 
 
 ---
+
 
