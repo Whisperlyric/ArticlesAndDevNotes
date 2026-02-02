@@ -1,6 +1,7 @@
 # 专栏和开发笔记 📚
 
 这个存储库用于记录我写过的专栏和笔记
+仿照https://github.com/Youmiel/ArticlesAndDevNotes
 
 ## 🗂️ 文章索引
 
