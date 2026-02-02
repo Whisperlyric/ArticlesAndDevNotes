@@ -71,7 +71,7 @@ public void extractRenderState(final T entity, final S state,
 客户端用当前运动趋势预测未来位置
 ```
 
-> **注**：Minecraft 的移动模型实际上是 `pos₂ = pos₁ + motion`，其中 motion 是速度向量。
+> **注**：Minecraft 的移动模型实际上是 `pos₂ = pos₁ + motion`，其中 motion 是速度向量的0.05倍。
 
 ### 2. 客户端数据包处理
 
@@ -270,5 +270,6 @@ TNT 实体缺少**主动同步触发机制**，导致：
 ---
 
 **感谢观看！如果喜欢这个分析，请关注我获取更多技术内容。**
+
 
 ---
