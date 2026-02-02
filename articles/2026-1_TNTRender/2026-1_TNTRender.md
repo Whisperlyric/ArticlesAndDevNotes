@@ -264,8 +264,7 @@ TNT 实体缺少**主动同步触发机制**，导致：
 
 - 视频文字版：GitHub 与 Bilibili 专栏  
 - Minecraft 1.21.11 未混淆源码  
-- Carpet Mod 测试数据  
-- `PrimedTnt.java`、`ItemEntity.java`、`ServerEntity.java` 源码片段
+- Fabric Carpet Mod 测试数据 
 
 ---
 
@@ -273,3 +272,4 @@ TNT 实体缺少**主动同步触发机制**，导致：
 
 
 ---
+
